@@ -1,0 +1,13 @@
+h3{
+    padding:15px;
+    margin:20px;
+    border: 2px solid darkred;
+    text-align: center;
+    color: darkblue;
+}
+.word{
+    padding:15px;
+    border: 2px solid blueviolet;
+    text-align: center;
+    color: rgb(139, 0, 69);
+}

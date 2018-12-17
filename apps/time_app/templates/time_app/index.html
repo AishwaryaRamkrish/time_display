@@ -1,0 +1,21 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Time Display</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'time_app/css/style.css' %}" />
+    <script src="{% static 'time_app/js/script.js' %}"></script>
+</head>
+<body>
+    <div id = "container">
+        <h3>The current Time and Date:</h3>
+        <div class ="datetime">
+            <h1>{{date}}</h1>
+            <h1>{{time}}</h1>
+        </div>
+    </div>
+</body>
+</html>
